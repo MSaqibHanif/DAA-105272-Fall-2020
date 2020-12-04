@@ -1,4 +1,8 @@
-TO DO: Write up program to solve N Queen Problem using backtracking
+## N Queen Problem using Backtracking
+
+## N Queen Problem using Brute-force
+
+## N Queen Problem using Dynamic Programming
 
 
 
