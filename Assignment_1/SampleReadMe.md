@@ -1,24 +1,7 @@
-TODO: Write a project description
+TO DO: Write up program to solve N Queen Problem using backtracking
 
 ## Installation
 
 TODO: Describe the installation process
 
-## Usage
 
-TODO: Write usage instructions
-
-## Contributing
-
-
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
