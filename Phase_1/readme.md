@@ -1,9 +1,13 @@
-======= Project Phase 1: Max overload========
+## What is backtracking?
+Backtracking is finding the solution of a problem whereby the solution depends on the previous steps taken. For example, in a maze problem, the solution depends on all the steps you take one-by-one. If any of those steps is wrong, then it will not lead us to the solution. In a maze problem, we first choose a path and continue moving along it. But once we understand that the particular path is incorrect, then we just come back and change it. This is what backtracking basically is.
 
-Aim:
--------
-This is assignment is aimed to get you a flavor of efficiency of algorithms. To achieve this, you will be implementing different algorithms that solves the modification to the classic N-Queen Problem discussed in assignment 1. The first and most fundamental algorithm is to use brute force which you have already done. The other solution is Backtracking which you will implement now. 
+In backtracking, we first take a step and then we see if this step taken is correct or not i.e., whether it will give a correct answer or not. And if it doesn’t, then we just come back and change our first step. In general, this is accomplished by recursion. Thus, in backtracking, we first start with a partial sub-solution of the problem (which may or may not lead us to the solution) and then check if we can proceed further with this sub-solution or not. If not, then we just come back and change it.
 
-Assessment Objectives:
---------------------------------------
-The assignment is geared to test how well you understand an algorithm and able to implement it. Secondly how well can you analyze the algorithm implemented on its time and complexity. On the side, you will also be assessed on your use of GitHub, and participation on GitHub.
+The general steps of backtracking are:
+
+start with a sub-solution
+check if this sub-solution will lead to the solution or not
+If not, then come back and change the sub-solution and continue again
+
+## N queens on NxN chessboard
+One of the most common examples of the backtracking is to arrange N queens on an NxN chessboard such that no queen can strike down any other queen. A queen can attack horizontally, vertically, or diagonally. The solution to this problem is also attempted in a similar way. We first place the first queen anywhere arbitrarily and then place the next queen in any of the safe places. We continue this process until the number of unplaced queens becomes zero (a solution is found) or no safe place is left. If no safe place is left, then we change the position of the previously placed queen.
